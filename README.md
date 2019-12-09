@@ -3,7 +3,7 @@
 
 
 ## Getting started
-Run the project in IDE and execute Unit test
+Run the project in IDE and execute unit tests, including:
 
 - `TransactionMapperTest` demonstrates how to test stateful UDF
   
