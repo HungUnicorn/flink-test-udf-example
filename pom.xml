@@ -110,7 +110,7 @@ under the License.
             <scope>runtime</scope>
         </dependency>
 
-		<!-- Testing -->
+        <!-- Testing -->
         <dependency>
             <groupId>org.mockito</groupId>
             <artifactId>mockito-core</artifactId>
@@ -144,12 +144,12 @@ under the License.
             <classifier>tests</classifier>
         </dependency>
 
-		<!-- Flink web UI -->
-		<dependency>
-			<groupId>org.apache.flink</groupId>
-			<artifactId>flink-runtime-web_2.11</artifactId>
-			<version>${flink.version}</version>
-		</dependency>
+        <!-- Flink web UI -->
+        <dependency>
+            <groupId>org.apache.flink</groupId>
+            <artifactId>flink-runtime-web_2.11</artifactId>
+            <version>${flink.version}</version>
+        </dependency>
     </dependencies>
 
     <build>
@@ -180,7 +180,7 @@ under the License.
                             <goal>shade</goal>
                         </goals>
                         <configuration>
-						<!-- add lib back so the jar can run without flink cluster-->
+                            <!-- add lib back so the jar can run without flink cluster-->
                             <artifactSet>
                                 <!--								<excludes>-->
                                 <!--									<exclude>org.apache.flink:force-shading</exclude>-->
