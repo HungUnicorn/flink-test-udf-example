@@ -1,5 +1,5 @@
 # flink-test-UDF-example
-- java, flink, lombok, jackson 
+Isn't the example `org.apache.flink.streaming.runtime.operators.windowing.WindowOperatorTest` provided by offcial flink very complicated? Althought it's very comprehensive and covers most of the cases, this test aims to provide simple and direct example so you get the point spending less time!
 
 
 ## Getting started
